@@ -1,0 +1,38 @@
+.aihao_box{
+    width: 100%;
+background: url('../images/d2.jpg');
+
+}
+
+.aihao_box .title{
+   width: 200px;
+   height: 60px;
+   margin: 10px auto;
+   border: solid 3px white;
+   text-align: center;
+   color:white;
+}
+.aihao_box .title h2{
+    line-height: 20px;
+   
+}
+
+.content_box{
+    display: flex;
+    flex-wrap:  wrap ;
+    justify-content:  center ;
+    color:white;
+}
+
+.content_box .item_box{
+    width: 350px;
+    border: solid 3px #007acc;
+    text-align: center;
+    padding: 20px 10px 10px 10px ;
+    margin: 10px;
+}
+.content_box .item_box img{
+    width: 320px;
+    height: 300px;
+    text-align: center;
+}
