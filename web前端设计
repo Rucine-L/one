@@ -1,0 +1,41 @@
+//StudybarCommentBegin
+#include <string.h>
+#include <stdio.h>
+int CountSubstr(char* s1, char* s2);
+
+int main()
+{
+	char s1[100], s2[100];
+	scanf("%s", s1);
+	scanf("%s", s2);
+	printf("%d", CountSubstr(s1, s2));
+}
+//StudybarCommentEnd
+int CountSubstr(char* s1, char* s2)
+{
+	int count = 0;
+	int m = 0,n = 0;
+	int p = 0;
+	m = strlen(s1);
+	n = strlen(s2);
+	for (int i = 0; s1[i] != '\0'; i++)
+	{
+		int k = i;
+		for (int j = 0; s2[j] != '\0'; j++)
+		{
+			if (s1[k] == s2[j])
+			{
+				p++;
+				k++;
+			}
+			else
+				break;
+		}
+		if (p == n)
+		{
+			count++;
+		}
+		p = 0;
+	}
+	return count;
+}
