@@ -1,0 +1,97 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱好</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/aihao.css">
+</head>
+<body>
+    <header>
+        <div class="nav_box">
+            <div class="left">
+                <h2>李心茹的个人博客</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a  href="./index.html">首页</a></li>
+                    <li><a class="actives" href="./aihao.html">我的爱好</a></li>
+                    <li><a href="./xiangce.html">我的旅行相册</a></li>
+                    <li><a href="./liuyan.html">留言</a></li>
+                    <li><a href="./dl.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+         <script src="js/index.js"type="text/javascript"></script>
+    </header>
+    <div class="main">
+
+        <div class="aihao_box">
+            <div class="title">
+                <h2>个 人 爱 好</h2>
+            </div>
+
+            <div class="content_box">
+                <div class="item_box">
+                    <div class="imgbox">
+                        <img src="./images/b2.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="tit">
+                            <h3>长跑</h3>
+                        </div>
+                        <div class="txt">
+                           <p>
+                            其实在高中遇上让我爱上体育的李老师之前，是非常抗拒体育的，最厌恶的便是长跑，她告诉我长跑不仅是一种运动，更是对自我的一种塑造，很多坚持到最后的人都有着长跑的习惯。这是一个循序渐进的过程，起初或许是难以坚持的，但一圈圈跑下来，实在撑不住了便走一走，休息好了便继续坚持。在这个坚持的过程中，我锻炼了自己的意志力，从最初跑两千时的走走停停，懒懒散散，到后来一步不歇地跑下来。从最初的抵触体育课上的长跑训练，到后来课下主动去长跑。我的体能有了很大的提升，每一次跑完的获得的成就感也是我坚持的动力。 高三时，每次压力大时，我都喜欢一个人去操场跑个两千米，在无人打扰，无事干扰的状况下总能获得一些新的体会与灵感。
+                            大学的生活里我也在坚持着长跑，它是我的爱好也是我的习惯，感谢高中的lsm老师帮助培养了我这个习惯。
+                           </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item_box">
+                    <div class="imgbox">
+                        <img src="./images/b3.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="tit">
+                            <h3>画画</h3>
+                        </div>
+                        <div class="txt">
+                            <p>
+                                从小，我便喜欢绘画。尤其喜爱那活泼可爱的卡通画和诗情韵雅的水粉画。它们往往会向路灯一样让我的生活更加充实，美好。几年前，大约是我3岁的时候，我就特别爱那俏丽形象的卡通人物，便不顾一切的画，画的家里每一个房间的雪白的墙壁都格外凌乱。上面有我3岁画的，也有5岁、7岁画的，甚至到现在的都有。这满墙的卡通人物,记载着我童年成长的痕迹。
+                                再大些又接触到更多的画的种类，看更多的漫画，也渐渐爱上了漫画和素描。虽然画技不佳，但每次绘画时专注于笔尖的一笔一划，不知不觉一下午便悄然逝去。一陷入绘画的世界便忘记时间是有些让人上瘾的成分在的，而尽情创造自己所想表达的东西是自由而快乐的。我想这便是我喜欢绘画的原因吧。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item_box">
+                    <div class="imgbox">
+                        <img src="./images/b1.jpg" alt="">
+                    </div>
+                    <div class="desc">
+                        <div class="tit">
+                            <h3>美食</h3>
+                        </div>
+                        <div class="txt">
+                           <p>
+                           世间万物，唯有爱与美食不可辜负，我喜欢各种各样的美食。但来到北京后，发现最爱的还是家乡的味道，那是乡愁。我总是想念着赣菜那一份生猛的辣味和刺激的咸香。无辣不欢的江西人，把每一道食物都用辣椒来赋予最鲜明的味道。莲花血鸭，咸香鲜辣的汤汁拌饭味道超绝，还有吃了18年也不会腻的炒粉，粗糙又软糯的炒粉，每一口都口齿生香。我也喜欢冬天大家围在一起吃的火锅，夏天冰镇的西瓜，秋天丰收的水果。我永远在寻找美食的路上不停脚步，在无趣的生活中，美食给生活带来的温暖的底色，或清淡，或浓重，无论如何，都色彩分明。
+                           </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>李心茹的个人博客</h3>
+    </div>
+</body>
+
+</html>
