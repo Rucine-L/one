@@ -1,0 +1,13 @@
+var d=new Date();
+var my_day=d.getDate();
+var my_month=d.getMonth()+1;
+var my_year=d.getFullYear();
+var weekday=new Array(7);
+weekday[0]="星期天\0";
+weekday[1]="星期一\0";
+weekday[2]="星期二\0";
+weekday[3]="星期三\0";
+weekday[4]="星期四\0";
+weekday[5]="星期五\0";
+weekday[6]="星期六\0";
+document.write("今天是"+my_year+"年"+my_month+"月"+my_day+"日  "+weekday[d.getUTCDay()]);

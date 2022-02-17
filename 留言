@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/liuyan.css">
+</head>
+<body>
+    <header>
+        <div class="nav_box">
+            <div class="left">
+                <h2>李心茹的个人博客</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a  href="./index.html">首页</a></li>
+                    <li><a  href="./aihao.html">我的爱好</a></li>
+                    <li><a href="./xiangce.html">我的旅行相册</a></li>
+                    <li><a class="actives" href="./liuyan.html">留言</a></li>
+                    <li><a  href="./dl.html">登录</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="bo_box">
+            <div class="title">
+                <h2>
+                    留言
+                </h2>
+            </div>
+             <audio controls>
+            <source type="audio/mp3" src="music/bgm.mp3"/>
+        </audio>
+        </div>
+        <div class="box_">
+            <h3>
+                欢迎大家给我留言！！！
+            </h3>
+            <p>
+                Welcome to leave a message for me!!
+            </p>
+        </div>
+        <div class="content_form">
+            <textarea name="" id="" cols="20" rows="15"placeholder="输入您的留言吧!!"></textarea>
+            <input type="button" onclick="alert('发送成功，谢谢你的留言！')" value="发送留言"/>
+        </div>
+    </div>
+    
+        <div class="footer">
+            <h3>李心茹的个人博客</h3>
+        </div>
+</body>
+
+</html>

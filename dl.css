@@ -1,0 +1,55 @@
+.box_dl{
+    width: 100%;
+}
+
+.box_dl .title{
+   width: 200px;
+   height: 60px;
+   margin: 10px auto;
+   border: solid 3px #007acc;
+   text-align: center;
+   
+}
+.box_dl .title h2{
+    line-height: 20px;
+}
+
+.co9ntent_dl{
+    min-height: 700px;
+    background: url('../images/e1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    overflow: hidden;
+}
+
+.co9ntent_dl .formbox{
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin: 120px auto;
+    padding: 20px;
+
+}
+
+.co9ntent_dl .formbox .input_item{
+margin: 40px 0;
+
+
+}
+
+.co9ntent_dl .formbox .input_item input{
+    width: 100%;
+    height: 45px;
+    
+    
+    }
+
+    .btn_box{
+        width: 120px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #007acc;
+        margin: 25px auto;
+        cursor: pointer;
+    }

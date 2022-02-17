@@ -1,0 +1,54 @@
+.bo_box{
+    width: 100%;
+}
+
+.bo_box .title{
+   width: 200px;
+   height: 60px;
+   margin: 10px auto;
+   border: solid 3px #007acc;
+   text-align: center;
+   
+}
+.bo_box .title h2{
+    line-height: 20px;
+}
+
+.box_{
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.box_ h3{
+    text-align: center;
+    line-height: 60px;
+}
+.box_ p{
+    text-align: center;
+    border-bottom: solid 1px #f1f1f1;
+}
+.content_form {
+    /* width: 100%; */
+   margin: 20px 0;
+    overflow: hidden;
+}
+
+.content_form textarea{
+    width: 1000px;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+}

@@ -1,0 +1,147 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/common.css" type="text/css" />
+    <link rel="stylesheet" href="./css/index.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="nav_box">
+            <div class="left">
+                <h2>李心茹的个人博客</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a class="actives" href="./index.html">首页</a></li>
+                    <li><a href="./aihao.html">我的爱好</a></li>
+                    <li><a href="./xiangce.html">我的旅行相册</a></li>
+                    <li><a href="./liuyan.html">留言</a></li>
+                    <li><a href="./dl.html">登录</a></li>
+
+                </ul>
+            </div>
+        </div>
+         <script src="js/index.js"type="text/javascript"></script>
+    </header> 
+    <div class="banner">
+
+        <div class="content_banner">
+            <h2>Welcome to my personal blog </h2>
+             <audio controls>
+            <source type="audio/mp3" src="music/bgm.mp3"/>
+        </audio>
+            <div class="btn_">
+            <input type="button" onclick="alert('请先登录再查看哟')" value="了解更多我" />
+        </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="main">
+        <div class="box1">
+            <div class="left">
+                <img src="./images/box1.jpg" alt="">
+
+            </div>
+
+            <div class="right">
+                <div>
+                    <h2>个人简介</h2>
+                </div>
+                <p>个人爱好:阅读 看电影 运动 </p>
+                <p>喜欢的电影: <<海上钢琴师>> <<肖申克的救赎>> </p>
+                <p>人生格言:没有人因水的平淡而厌倦饮水,也没有人因生活的平淡而摒弃生活。 </p>
+                <p>人生理想:一世无忧 </p>
+                <p>喜欢的书籍:《小王子》 《三国演义》 《西游记》《红楼梦》 《论语》、《诗经》、《大学》</p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="box2">
+            <div class="left">
+                <div>
+                    <h2>兴趣爱好:阅读</h2>
+                </div>
+            <p>
+              最初时，阅读的启蒙是桌上的一本数学童话总动员，作者把数学知识融在主角们闯关打败boss的过程中，让曾经晦涩无聊的知识变得有趣，那天，我捧着书坐了一下午，手不释卷，渐渐的体会到了文字的乐趣和妙处。
+              阅读成了我的好友，从小学时爱都冒险故事，到初中阅读名家小说，再到高中时沉浸在四大名著的魅力中，为林黛玉和贾宝玉的爱情悲剧伤感，为好汉们的豪气而振奋不已，为乱世三国英雄们的才智折服。到了现在，也总是喜欢抽出时间来泡一杯茶，捧一本书，静静地阅读。
+            </p>   
+            
+            </div>
+
+            <div class="right">
+                <img src="./images/box2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="left">
+                <img src="./images/box3.jpg" alt="">
+
+            </div>
+
+            <div class="right">
+             <h2>关于学习与未来</h2>    
+            <p>
+                其实没有想过会来到中传，意料之外地被录取到了中传的计网学院，来到这个专业。也算一种特别的缘分。中传的校园不大但透露着精致，秋天的银杏路，美的不可言喻，总能在学校的不同地方见到同样忙忙碌碌朝着自己目标而努力的同学。图书馆的灯亮到夜晚22点，来自不同年级，不同专业的同学一起奋斗。冬天的钢琴湖，冰封的湖面聚集了不同年纪的人，一起在湖面玩耍。大学对于我而言不仅是学习的地方，更是成长的地方。在这里我学到了专业知识，认识了来自五湖四海，生活习惯不同的朋友，锻炼的不仅仅是我知识的广度，学习的过程和在中传成长的过程也拓宽了生活的深度，对于我而言，我想在大学里好好沉淀锻炼自己，好好学习，提高专业技能，也要学会在人际交往方面勇于结识朋友，拓宽自己的见识。更要好好为自己的未来谋划，思考自己究竟想要成为什么样的人。
+           
+            </p>
+            </div>
+
+
+        </div>
+
+ <div class="bottom_box">
+<div class="item">
+    <div class="imgbox_itemj">
+        <img src="./images/a1.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a2.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a3.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a4.jpg" alt="">
+    </div>
+</div>
+<div class="item">
+    <div class="imgbox_itemj">
+        <img src="./images/a5.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a6.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a7.jpg" alt="">
+    </div>
+    <div class="imgbox_itemj">
+        <img src="./images/a8.jpg" alt="">
+    </div>
+</div>
+
+ </div>       
+
+    </div>
+    <div class="footer">
+        <h3>李心茹的个人博客</h3>
+    </div>
+
+
+</body>
+
+</html>

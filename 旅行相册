@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相册</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/xiangce.css">
+    <link rel="stylesheet" href="css/slider.css" type="text/css" />
+    <script src="js/slider.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="nav_box">
+            <div class="left">
+                <h2>李心茹的个人博客</h2>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a  href="./index.html">首页</a></li>
+                    <li><a  href="./aihao.html">我的爱好</a></li>
+                    <li><a  class="actives href="./xiangce.html">我的旅行相册</a></li>
+                    <li><a  href="./liuyan.html">留言</a></li>
+                    <li><a  href="./dl.html">登录</a></li>
+                </ul>
+            </div>
+        </div>
+         <script src="js/index.js"type="text/javascript"></script>
+    </header>
+    <div class="main">
+        <div class="box_contentcx">
+            <div class="title">
+                <h2>旅行相册</h2>
+            </div>
+            <div class="top_info">
+                <p>
+                    微风不燥，时光正好，不理会复杂的琐事，自由自在地去体验一个城市，一段故事，留下一片欢笑。<br/>
+                    旅行，不过是为了迷失自己，然后发现自己。—— 皮寇·爱耶尔《我们为什么旅行》<br/>
+                    旅游不在乎终点，而是在意途中的人和事还有那些美好的记忆和景色。<br/>
+                    一个背包，几本书，所有喜欢的歌，一张单程车票，一颗潇洒的心。<br/>
+                    趁阳光正好，趁微风不噪，趁繁花还未开至荼蘼，来一场说走就走的旅行。<br/>
+                    愿你我既能朝九晚五，又能浪迹天涯。<br/>
+                    路，好不好走，自己亲自走过才知道。风景，美不美，自己亲眼看过才知道。<br/>
+                    千言万语不如千山万水。<br/>
+                    等风来，不如追风去，追逐的过程就是旅行的意义。<br/>
+                    那时，青年人不断思考，却什么答案也得不到，于是他们去流浪；今天，青年人不去思考，无数答案和观点就已将我们包围，于是我们去旅游。——《逍遥骑士》
+                </p>
+            </div>
+            <div class="content_center">
+            <div class="img_top">
+                <img src="./images/c1.jpg" alt="">
+                <img src="./images/c2.jpg" alt="">
+                <img src="./images/c3.jpg" alt="">
+                <img src="./images/c4.jpg" alt="">
+            </div>
+<div id="wrap"> <ul id="pic">
+<li ><img src="images/d1.jpg" alt=""></li>
+<li ><img src="images/d2.jpg" alt=""></li>
+<li ><img src="images/d3.jpg" alt=""></li>
+<li ><img src="images/d4.jpg" alt=""></li>
+<li ><img src="images/d5.jpg" alt=""></li>
+<li ><img src="images/d6.jpg" alt=""></li>
+</ul>
+<ul id="num">
+<li class="active"></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+<li class=""></li>
+</ul>
+<a href="javascript:;" class="arrow" id="left"></a>
+<a href="javascript:;" class="arrow" id="right"></a>
+</div>
+ <div class="footer">
+            <h3>李心茹的个人博客</h3>
+        </div>
+</body>
+</html>

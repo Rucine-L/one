@@ -1,0 +1,42 @@
+.box_contentcx{
+    width: 93%;
+}
+
+.box_contentcx .title{
+    width: 200px;
+    height: 60px;
+    margin: 10px auto;
+    border: solid 3px #007acc;
+    text-align: center;
+}
+
+.box_contentcx .title h2{
+    line-height: 20px;
+}
+.top_info{
+    width: 100%;
+    line-height: 30px;
+    border: solid 2px #007acc;
+    padding: 50px;
+}
+
+.img_top{
+    width: 100%;
+    text-align: center;
+}
+.img_top img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.content_img{
+    text-align: center;
+}
+.content_img img{
+    width: 270px;
+    height: 280px;
+    padding: 10px;
+}
